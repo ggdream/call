@@ -29,23 +29,20 @@ class Windows implements Meta {
 }
 
 class Linux implements Meta {
-  @override
-  String getDebugPath() {
-    // TODO: implement getDebugPath
-    throw UnimplementedError();
-  }
+  static const String assets = 'data/flutter_assets';
 
   @override
-  String getReleasePath() {
-    // TODO: implement getReleasePath
-    throw UnimplementedError();
-  }
+  String getDebugPath() => join(
+      dirname(Platform.script.toFilePath(windows: false)),
+      'build/linux/debug/bundle',
+      assets);
 
   @override
-  String getCurrentPath() {
-    // TODO: implement getCurrentPath
-    throw UnimplementedError();
-  }
+  String getReleasePath() =>
+      join(dirname(Platform.script.toFilePath(windows: false)), assets);
+
+  @override
+  String getCurrentPath() => isProduct() ? getReleasePath() : getDebugPath();
 }
 
 class Macos implements Meta {

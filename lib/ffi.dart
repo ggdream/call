@@ -9,6 +9,8 @@ ffi.DynamicLibrary getDyLibModule(String module) {
   String path = '';
   if (Platform.isWindows) {
     path = Windows().getCurrentPath();
+  } else if (Platform.isLinux) {
+    path = Linux().getCurrentPath();
   } else {
     throw 'the platform is not supported';
   }
