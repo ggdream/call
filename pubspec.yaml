@@ -1,0 +1,17 @@
+name: call
+description: Using assets to use DLL more conveniently.
+version: 0.0.2
+homepage: https://github.com/ggdream/call
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
