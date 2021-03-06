@@ -1,6 +1,6 @@
 name: call
 description: Using assets to use DLL more conveniently.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/ggdream/call
 
 environment:
