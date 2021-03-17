@@ -1,6 +1,15 @@
 # call
 
-Using assets's way to call Dynamic Library more conveniently and easily.
+You can use the package to open the dylib defined in the `assets` field of `pubsepc.yaml`.
+Support:
+> Platforms: Windows, Linux, MacOS. 
+
+> Mode: Debug and Release.
+
+(PS: Android and IOS don't need this to easily call native libraries)
+
+[Click me to lookup the whole doc on GitHub.](https://github.com/ggdream/call/blob/README.md)
+
 
 ## First
 Write your C-code, and compile it to a dylib.
