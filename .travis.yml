@@ -1,0 +1,9 @@
+os: linux
+dist: focal
+
+language: dart
+dart:
+ - 2.12.1
+
+script:
+  - dart run ./test/call_test.dart

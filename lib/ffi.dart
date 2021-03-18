@@ -5,6 +5,7 @@ import 'package:path/path.dart' show join;
 import 'core.dart';
 
 /// You can use the [getDyLibModule] function to open the dylib defined in the `assets` field of `pubsepc.yaml`.
+/// 
 /// For example:
 /// clang code
 /// ```
@@ -26,12 +27,12 @@ import 'core.dart';
 /// import 'package:call/call.dart';
 ///
 /// typedef FuncNative = ffi.Int32 Function(ffi.Int32, ffi.Int32);
-/// typedef FuncDart = int Funtion(int, int);
+/// typedef FuncDart = int Function(int, int);
 ///
 /// var dll = getDyLibModule('assets/libadd.dll');
 /// var add = dll.lookupFunction<FuncNative, FuncDart>('add');
 ///
-/// print(add(999, 54639)); // Output: 55638
+/// print(add(999, 54639));     // Output: 55638
 /// ```
 ffi.DynamicLibrary getDyLibModule(String module) {
   String path = '';

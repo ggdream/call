@@ -1,3 +1,6 @@
+## [0.2.1] - Repair the doc.
+- Add travis-ci supported.
+
 ## [0.2.0] - Change internal API.
 - From `interface` to `abstract class`.
 - Add [getDyLibModule] code docs to read API easily.
