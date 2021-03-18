@@ -1,6 +1,6 @@
 name: call
 description: Calling dynamic link library(native function) in the way of defining static resources. You can use the package to open the dylib defined in the `assets` field of `pubsepc.yaml`.
-version: 0.2.2
+version: 0.2.3
 homepage: https://github.com/ggdream/call
 
 environment:

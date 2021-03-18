@@ -1,3 +1,6 @@
+## [0.2.1] - Repair the doc.
+- Repair the url path of GitHub README.md file.
+
 ## [0.2.2] - Repair the travis-ci file.
 
 ## [0.2.1] - Repair the doc.

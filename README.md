@@ -8,7 +8,7 @@ Support:
 
 (PS: Android and IOS don't need this to easily call native libraries)
 
-[Click me to lookup the whole doc on GitHub.](https://github.com/ggdream/call/blob/README.md)
+[Click me to lookup the whole doc on GitHub.](https://github.com/ggdream/call/blob/main/README.md)
 
 
 ## First
