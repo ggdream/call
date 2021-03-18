@@ -1,3 +1,5 @@
+## [0.2.2] - Repair the travis-ci file.
+
 ## [0.2.1] - Repair the doc.
 - Add travis-ci supported.
 
