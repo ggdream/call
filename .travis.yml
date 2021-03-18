@@ -5,5 +5,8 @@ language: dart
 dart:
  - 2.12.1
 
+install:
+ - echo 'hello, call'
+
 script:
   - dart run ./test/call_test.dart
